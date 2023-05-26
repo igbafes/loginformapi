@@ -1,0 +1,62 @@
+body {
+  background-color: teal;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ .login-form{
+   font-family: sans-serif;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: white;
+   flex-direction: column;
+   gap: 20px ;
+   height: 60vh;
+   width: 50vw;
+    margin: 30px 300px;
+   padding: 2rem;
+   box-shadow: 20px 15px 20px 0 rgba(0,0,0,0.2);
+ }
+ input[type='text'] {
+  height: 25px;
+  border: 1px solid rgba(0,0,0.2);
+ }
+ input[type='submit'] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: white;
+  padding: 10px 20px;
+ }
+
+ input[type='submit']:hover {
+   background: #6cf0c2;
+ }
+ .button-container{
+  display: flex;
+  justify-content: center;
+ }
+ .list-container{
+  display: flex;
+ }
+ .error {
+  color: red;
+  font-size: 12px;
+ }
+ .title{
+  font-size: 25px;
+  margin-bottom: 20px;
+ }
+
+ .input-container{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+ }
